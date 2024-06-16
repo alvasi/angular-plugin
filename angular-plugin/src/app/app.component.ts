@@ -7,6 +7,6 @@ import { Client, CLIENT } from './client';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Remix Plugin Example';
+  title = 'Angular Plugin Test';
   constructor(@Inject(CLIENT) private client: Client) {}
 }
