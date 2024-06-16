@@ -1,0 +1,26 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "rootDir": ".",
+      "sourceMap": true,
+      "declaration": false,
+      "moduleResolution": "node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "importHelpers": true,
+      "target": "es2015",
+      "module": "esnext",
+      "typeRoots": ["node_modules/@types"],
+      "lib": ["es2017", "dom"],
+      "skipLibCheck": true,
+      "skipDefaultLibCheck": true,
+      "baseUrl": ".",
+      "paths": {
+        "@remixproject/plugin-utils": ["node_modules/@remixproject/plugin-utils/src/index.d.ts"],
+        "@remixproject/plugin-api": ["node_modules/@remixproject/plugin-api/src/index.d.ts"],
+        "@remixproject/plugin": ["node_modules/@remixproject/plugin/src/index.d.ts"],
+        "@remixproject/plugin-webview": ["node_modules/@remixproject/plugin-webview/src/index.d.ts"]
+      }
+    },
+    "exclude": ["node_modules", "tmp"]
+  }
