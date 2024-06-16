@@ -1,0 +1,43 @@
+{
+  "hash": "d4649f89",
+  "configHash": "a820c409",
+  "lockfileHash": "3b9799a9",
+  "browserHash": "77aaf644",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "724d1f29",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "527ac047",
+      "needsInterop": false
+    },
+    "@remixproject/plugin": {
+      "src": "../../../../../node_modules/@remixproject/plugin/src/index.js",
+      "file": "@remixproject_plugin.js",
+      "fileHash": "8bb01c3c",
+      "needsInterop": true
+    },
+    "@remixproject/plugin-webview": {
+      "src": "../../../../../node_modules/@remixproject/plugin-webview/src/index.js",
+      "file": "@remixproject_plugin-webview.js",
+      "fileHash": "90b1dbf4",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-QCTY7TJT": {
+      "file": "chunk-QCTY7TJT.js"
+    },
+    "chunk-LFPE2RNU": {
+      "file": "chunk-LFPE2RNU.js"
+    },
+    "chunk-L35DB5L5": {
+      "file": "chunk-L35DB5L5.js"
+    }
+  }
+}
